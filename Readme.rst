@@ -1,4 +1,7 @@
-.. _breast_cancer_dataset:
+Breast cancer Prediction Using K-Nearest Neighbors
+---------------------------------------------------
+In this Project we are going to use the K-Nearest Neighbors algorithm to Predict
+the breast cancer, that is whether it is Malignant or Benign.
 
 Breast cancer wisconsin (diagnostic) dataset
 --------------------------------------------
@@ -116,3 +119,24 @@ cd math-prog/cpo-dataset/machine-learn/WDBC/
    - W.H. Wolberg, W.N. Street, and O.L. Mangasarian. Machine learning techniques
      to diagnose breast cancer from fine-needle aspirates. Cancer Letters 77 (1994)
      163-171.
+
+Install
+-------------------------------
+Supported Python version
+  -Python version used in this Project:3.5+
+
+Libraries used
+------------------------------
+Pandas
+Matplotlib
+Sklearn
+Numpy
+
+Run
+------------------------------
+To run this project you will need some software, like Anaconda, which provides
+support for running .ipynb files (Jupyter Notebook).
+
+After making sure you have that, you can run from a terminal or cmd next lines:
+
+ipython notebook KNN Implementation.ipynb
