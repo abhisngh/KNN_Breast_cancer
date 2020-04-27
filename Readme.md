@@ -123,6 +123,7 @@ cd math-prog/cpo-dataset/machine-learn/WDBC/
      to diagnose breast cancer from fine-needle aspirates. Cancer Letters 77 (1994)
      163-171.
 
+<<<<<<< HEAD:Readme.md
 K-Nearest Neighbor
 ------------------------
     The k-nearest neighbors (KNN) algorithm is a simple, easy-to-implement supervised machine learning algorithm that can be used to solve both classification and regression problems.
@@ -159,3 +160,25 @@ Run
 
     After making sure you have that, you can run from a terminal or cmd next lines:
     ipython notebook KNN Implementation.ipynb
+=======
+Install
+-------------------------------
+Supported Python version
+  -Python version used in this Project:3.5+
+
+Libraries used
+------------------------------
+Pandas
+Matplotlib
+Sklearn
+Numpy
+
+Run
+------------------------------
+To run this project you will need some software, like Anaconda, which provides
+support for running .ipynb files (Jupyter Notebook).
+
+After making sure you have that, you can run from a terminal or cmd next lines:
+
+ipython notebook KNN Implementation.ipynb
+>>>>>>> 611481848e39236efa3746cb66a2fa0dd1068bf8:Readme.rst
