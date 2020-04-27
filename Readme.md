@@ -1,6 +1,11 @@
-.. _breast_cancer_dataset:
+Breast cancer Prediction Using K-Nearest Neighbors
+---------------------------------------------------
+In this Project we are going to use the K-Nearest Neighbors algorithm to Predict
+the breast cancer, that is whether it is Malignant or Benign.
 
-Breast cancer wisconsin (diagnostic) dataset
+![alt text](https://github.com/abhisngh/KNN_Breast_cancer/blob/master/Image/Types.jpeg "Logo Title Text 1")
+
+Breast cancer Wisconsin (diagnostic) dataset
 --------------------------------------------
 
 **Data Set Characteristics:**
@@ -34,7 +39,8 @@ Breast cancer wisconsin (diagnostic) dataset
 
     ===================================== ====== ======
                                            Min    Max
-    ===================================== ====== ======
+    ===================================== ====== =====
+
     radius (mean):                        6.981  28.11
     texture (mean):                       9.71   39.28
     perimeter (mean):                     43.79  188.5
@@ -104,7 +110,7 @@ This database is also available through the UW CS ftp server:
 ftp ftp.cs.wisc.edu
 cd math-prog/cpo-dataset/machine-learn/WDBC/
 
-.. topic:: References
+    .. topic:: References
 
    - W.N. Street, W.H. Wolberg and O.L. Mangasarian. Nuclear feature extraction
      for breast tumor diagnosis. IS&T/SPIE 1993 International Symposium on
@@ -116,3 +122,40 @@ cd math-prog/cpo-dataset/machine-learn/WDBC/
    - W.H. Wolberg, W.N. Street, and O.L. Mangasarian. Machine learning techniques
      to diagnose breast cancer from fine-needle aspirates. Cancer Letters 77 (1994)
      163-171.
+
+K-Nearest Neighbor
+------------------------
+    The k-nearest neighbors (KNN) algorithm is a simple, easy-to-implement supervised machine learning algorithm that can be used to solve both classification and regression problems.
+
+    Advantages
+    -The algorithm is simple and easy to implement.
+    -There’s no need to build a model, tune several parameters,or make additional assumptions.
+    -The algorithm is versatile. It can be used for classification, regression, and search (as we  will see in the next section).
+
+    Disadvantages
+    The algorithm gets significantly slower as the number of examples and/or predictors/independent variables increase.
+
+![alt text](https://github.com/abhisngh/KNN_Breast_cancer/blob/master/Image/KNN.jpeg "Logo Title Text 1")
+
+
+
+Install
+-------------------------------
+    Supported Python version
+        -Python version used in this Project:3.5+
+
+Libraries used
+------------------------------
+    Pandas
+    Matplotlib
+    Sklearn
+    Numpy
+    Seaborn
+
+Run
+------------------------------
+    To run this project you will need some software, like Anaconda, which provides
+    support for running .ipynb files (Jupyter Notebook).
+
+    After making sure you have that, you can run from a terminal or cmd next lines:
+    ipython notebook KNN Implementation.ipynb
