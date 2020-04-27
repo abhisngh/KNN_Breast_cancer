@@ -3,7 +3,7 @@ Breast cancer Prediction Using K-Nearest Neighbors
 In this Project we are going to use the K-Nearest Neighbors algorithm to Predict
 the breast cancer, that is whether it is Malignant or Benign.
 
-![alt text](https://github.com/abhisngh/KNN_Breast_cancer/blob/master/Image/Types.jpeg "Logo Title Text 1")
+![alt text](https://github.com/abhisngh/KNN_Breast_cancer/blob/master/Image/Types.png "Logo Title Text 1")
 
 Breast cancer Wisconsin (diagnostic) dataset
 --------------------------------------------
@@ -136,7 +136,7 @@ K-Nearest Neighbor
     Disadvantages
     The algorithm gets significantly slower as the number of examples and/or predictors/independent variables increase.
 
-![alt text](https://github.com/abhisngh/KNN_Breast_cancer/blob/master/Image/KNN.jpeg "Logo Title Text 1")
+![alt text](https://github.com/abhisngh/KNN_Breast_cancer/blob/master/Image/KNN.png "Logo Title Text 1")
 
 
 
@@ -160,25 +160,3 @@ Run
 
     After making sure you have that, you can run from a terminal or cmd next lines:
     ipython notebook KNN Implementation.ipynb
-=======
-Install
--------------------------------
-Supported Python version
-  -Python version used in this Project:3.5+
-
-Libraries used
-------------------------------
-Pandas
-Matplotlib
-Sklearn
-Numpy
-
-Run
-------------------------------
-To run this project you will need some software, like Anaconda, which provides
-support for running .ipynb files (Jupyter Notebook).
-
-After making sure you have that, you can run from a terminal or cmd next lines:
-
-ipython notebook KNN Implementation.ipynb
->>>>>>> 611481848e39236efa3746cb66a2fa0dd1068bf8:Readme.rst
